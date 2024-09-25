@@ -1,0 +1,3788 @@
+fileFormatVersion: 2
+guid: 7c917e51a77df4745a639fdfb68b264b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5986226791099273556
+    second: Tileset_rpgmaker_0
+  - first:
+      213: 3405073428387508094
+    second: Tileset_rpgmaker_1
+  - first:
+      213: 3170429365448795086
+    second: Tileset_rpgmaker_2
+  - first:
+      213: 1058756226134957714
+    second: Tileset_rpgmaker_3
+  - first:
+      213: -2147264808261900162
+    second: Tileset_rpgmaker_4
+  - first:
+      213: -5983644024664856540
+    second: Tileset_rpgmaker_5
+  - first:
+      213: -170811502037374351
+    second: Tileset_rpgmaker_6
+  - first:
+      213: 4263370429376593773
+    second: Tileset_rpgmaker_7
+  - first:
+      213: -5267114508939940756
+    second: Tileset_rpgmaker_8
+  - first:
+      213: 1201888319895705822
+    second: Tileset_rpgmaker_9
+  - first:
+      213: -2714103512099362285
+    second: Tileset_rpgmaker_10
+  - first:
+      213: 2051393937071270376
+    second: Tileset_rpgmaker_11
+  - first:
+      213: 4447706401627205199
+    second: Tileset_rpgmaker_12
+  - first:
+      213: -3092555125499105353
+    second: Tileset_rpgmaker_13
+  - first:
+      213: -4172362980836715709
+    second: Tileset_rpgmaker_14
+  - first:
+      213: 4730390962877654724
+    second: Tileset_rpgmaker_15
+  - first:
+      213: 3798868463697818049
+    second: Tileset_rpgmaker_16
+  - first:
+      213: -6296598132525838038
+    second: Tileset_rpgmaker_17
+  - first:
+      213: -3488554749041784992
+    second: Tileset_rpgmaker_18
+  - first:
+      213: 7494608299871569582
+    second: Tileset_rpgmaker_19
+  - first:
+      213: -779725722143381819
+    second: Tileset_rpgmaker_20
+  - first:
+      213: -3051652606637523534
+    second: Tileset_rpgmaker_21
+  - first:
+      213: -3550870610202951319
+    second: Tileset_rpgmaker_22
+  - first:
+      213: 6131291055223537509
+    second: Tileset_rpgmaker_23
+  - first:
+      213: 3833438767476510609
+    second: Tileset_rpgmaker_24
+  - first:
+      213: 286601471826240538
+    second: Tileset_rpgmaker_25
+  - first:
+      213: -8887868655504142293
+    second: Tileset_rpgmaker_26
+  - first:
+      213: 3045202846801737782
+    second: Tileset_rpgmaker_27
+  - first:
+      213: -8243500882691551584
+    second: Tileset_rpgmaker_28
+  - first:
+      213: 791155211136839001
+    second: Tileset_rpgmaker_29
+  - first:
+      213: 4979622311509823008
+    second: Tileset_rpgmaker_30
+  - first:
+      213: 9190222587718124168
+    second: Tileset_rpgmaker_31
+  - first:
+      213: 789117541009799953
+    second: Tileset_rpgmaker_32
+  - first:
+      213: -1584192495243065592
+    second: Tileset_rpgmaker_33
+  - first:
+      213: 6532877658220393487
+    second: Tileset_rpgmaker_34
+  - first:
+      213: -6705977343493532066
+    second: Tileset_rpgmaker_35
+  - first:
+      213: -2501732762849141286
+    second: Tileset_rpgmaker_36
+  - first:
+      213: -5306791872933683949
+    second: Tileset_rpgmaker_37
+  - first:
+      213: 4793994047980048014
+    second: Tileset_rpgmaker_38
+  - first:
+      213: -2384992205481299392
+    second: Tileset_rpgmaker_39
+  - first:
+      213: 3337912636294166639
+    second: Tileset_rpgmaker_40
+  - first:
+      213: -6554513628412333067
+    second: Tileset_rpgmaker_41
+  - first:
+      213: -6095176982523654621
+    second: Tileset_rpgmaker_42
+  - first:
+      213: -8346814280961410217
+    second: Tileset_rpgmaker_43
+  - first:
+      213: -590067425856292659
+    second: Tileset_rpgmaker_44
+  - first:
+      213: -569724981144416101
+    second: Tileset_rpgmaker_45
+  - first:
+      213: -2988267277030603418
+    second: Tileset_rpgmaker_46
+  - first:
+      213: -2547068164986769508
+    second: Tileset_rpgmaker_47
+  - first:
+      213: 2357646282681076032
+    second: Tileset_rpgmaker_48
+  - first:
+      213: -2171937096314638717
+    second: Tileset_rpgmaker_49
+  - first:
+      213: -5282767974661133129
+    second: Tileset_rpgmaker_50
+  - first:
+      213: 3841041454426583512
+    second: Tileset_rpgmaker_51
+  - first:
+      213: 8734313310626316725
+    second: Tileset_rpgmaker_52
+  - first:
+      213: 3759648990400567834
+    second: Tileset_rpgmaker_53
+  - first:
+      213: 6086342842463423617
+    second: Tileset_rpgmaker_54
+  - first:
+      213: 1138639896469990879
+    second: Tileset_rpgmaker_55
+  - first:
+      213: 8988834897556899095
+    second: Tileset_rpgmaker_56
+  - first:
+      213: -2644496134010463810
+    second: Tileset_rpgmaker_57
+  - first:
+      213: -8784386021031956322
+    second: Tileset_rpgmaker_58
+  - first:
+      213: -6686122209590967195
+    second: Tileset_rpgmaker_59
+  - first:
+      213: 9155965190238974977
+    second: Tileset_rpgmaker_60
+  - first:
+      213: 7952399661140340912
+    second: Tileset_rpgmaker_61
+  - first:
+      213: -4261061788579097877
+    second: Tileset_rpgmaker_62
+  - first:
+      213: -3373965953658023040
+    second: Tileset_rpgmaker_63
+  - first:
+      213: -759188260413034002
+    second: Tileset_rpgmaker_64
+  - first:
+      213: 1181688583801962900
+    second: Tileset_rpgmaker_65
+  - first:
+      213: -3283407328406410421
+    second: Tileset_rpgmaker_66
+  - first:
+      213: 1888005573233967648
+    second: Tileset_rpgmaker_67
+  - first:
+      213: 7243137366074267732
+    second: Tileset_rpgmaker_68
+  - first:
+      213: 2010687625652761585
+    second: Tileset_rpgmaker_69
+  - first:
+      213: -8695632735291328157
+    second: Tileset_rpgmaker_70
+  - first:
+      213: 4236627379490399772
+    second: Tileset_rpgmaker_71
+  - first:
+      213: -3097834414152849235
+    second: Tileset_rpgmaker_72
+  - first:
+      213: -1450630721297229497
+    second: Tileset_rpgmaker_73
+  - first:
+      213: 2106480953575815118
+    second: Tileset_rpgmaker_74
+  - first:
+      213: -732128721460400621
+    second: Tileset_rpgmaker_75
+  - first:
+      213: -1848732299069458440
+    second: Tileset_rpgmaker_76
+  - first:
+      213: -958317968300747770
+    second: Tileset_rpgmaker_77
+  - first:
+      213: -7561993904054518560
+    second: Tileset_rpgmaker_78
+  - first:
+      213: -5074973159405355953
+    second: Tileset_rpgmaker_79
+  - first:
+      213: 5004413061925910486
+    second: Tileset_rpgmaker_80
+  - first:
+      213: -5269324985797928188
+    second: Tileset_rpgmaker_81
+  - first:
+      213: -594846845873044467
+    second: Tileset_rpgmaker_82
+  - first:
+      213: 8082518017702440212
+    second: Tileset_rpgmaker_83
+  - first:
+      213: 8556815010068682743
+    second: Tileset_rpgmaker_84
+  - first:
+      213: 5230207343090135437
+    second: Tileset_rpgmaker_85
+  - first:
+      213: -2951449329701920747
+    second: Tileset_rpgmaker_86
+  - first:
+      213: -4631564574472176309
+    second: Tileset_rpgmaker_87
+  - first:
+      213: 2066958982472924380
+    second: Tileset_rpgmaker_88
+  - first:
+      213: -6397499998438786746
+    second: Tileset_rpgmaker_89
+  - first:
+      213: -4730120625460423356
+    second: Tileset_rpgmaker_90
+  - first:
+      213: -6037748082356011395
+    second: Tileset_rpgmaker_91
+  - first:
+      213: -6840544651247656485
+    second: Tileset_rpgmaker_92
+  - first:
+      213: 1691468612318949757
+    second: Tileset_rpgmaker_93
+  - first:
+      213: -4181258692604953214
+    second: Tileset_rpgmaker_94
+  - first:
+      213: 1769688117087117112
+    second: Tileset_rpgmaker_95
+  - first:
+      213: -1800433191138013552
+    second: Tileset_rpgmaker_96
+  - first:
+      213: 6026896234230858855
+    second: Tileset_rpgmaker_97
+  - first:
+      213: -3189673953014554904
+    second: Tileset_rpgmaker_98
+  - first:
+      213: -2428583845210234126
+    second: Tileset_rpgmaker_99
+  - first:
+      213: 4627602817878565636
+    second: Tileset_rpgmaker_100
+  - first:
+      213: -3291461400560018321
+    second: Tileset_rpgmaker_101
+  - first:
+      213: -8009039667359505155
+    second: Tileset_rpgmaker_102
+  - first:
+      213: -5574555305481147579
+    second: Tileset_rpgmaker_103
+  - first:
+      213: 1596417536287351505
+    second: Tileset_rpgmaker_104
+  - first:
+      213: 1302729547529177510
+    second: Tileset_rpgmaker_105
+  - first:
+      213: 1402919186898625411
+    second: Tileset_rpgmaker_106
+  - first:
+      213: 4088641923948748384
+    second: Tileset_rpgmaker_107
+  - first:
+      213: 6831786581744878362
+    second: Tileset_rpgmaker_108
+  - first:
+      213: -6456625234360774331
+    second: Tileset_rpgmaker_109
+  - first:
+      213: -2645000884520727088
+    second: Tileset_rpgmaker_110
+  - first:
+      213: -7220873567236481401
+    second: Tileset_rpgmaker_111
+  - first:
+      213: -7828168314302865103
+    second: Tileset_rpgmaker_112
+  - first:
+      213: -6124013560049105943
+    second: Tileset_rpgmaker_113
+  - first:
+      213: -1116496791650888839
+    second: Tileset_rpgmaker_114
+  - first:
+      213: -8517986936035700209
+    second: Tileset_rpgmaker_115
+  - first:
+      213: -8788374106288923918
+    second: Tileset_rpgmaker_116
+  - first:
+      213: -4345338762767338198
+    second: Tileset_rpgmaker_117
+  - first:
+      213: -1148209464156018605
+    second: Tileset_rpgmaker_118
+  - first:
+      213: 5606617009328688209
+    second: Tileset_rpgmaker_119
+  - first:
+      213: -3672137354003184064
+    second: Tileset_rpgmaker_120
+  - first:
+      213: -3741805463488754218
+    second: Tileset_rpgmaker_121
+  - first:
+      213: -8585967821533929477
+    second: Tileset_rpgmaker_122
+  - first:
+      213: 9008884488938862185
+    second: Tileset_rpgmaker_123
+  - first:
+      213: -317856677917910266
+    second: Tileset_rpgmaker_124
+  - first:
+      213: 6528761466802307908
+    second: Tileset_rpgmaker_125
+  - first:
+      213: -8506508232049535132
+    second: Tileset_rpgmaker_126
+  - first:
+      213: 5509167127318816631
+    second: Tileset_rpgmaker_127
+  - first:
+      213: -7351508541746574144
+    second: Tileset_rpgmaker_128
+  - first:
+      213: -8397402256970028819
+    second: Tileset_rpgmaker_129
+  - first:
+      213: -1087904082803138899
+    second: Tileset_rpgmaker_130
+  - first:
+      213: 5807000107990435434
+    second: Tileset_rpgmaker_131
+  - first:
+      213: -7280662250422338070
+    second: Tileset_rpgmaker_132
+  - first:
+      213: -4085436945499342698
+    second: Tileset_rpgmaker_133
+  - first:
+      213: -8564910781020385701
+    second: Tileset_rpgmaker_134
+  - first:
+      213: 2224811367712519170
+    second: Tileset_rpgmaker_135
+  - first:
+      213: 3894866627015369444
+    second: Tileset_rpgmaker_136
+  - first:
+      213: -6120734471297863284
+    second: Tileset_rpgmaker_137
+  - first:
+      213: 3617246781884761958
+    second: Tileset_rpgmaker_138
+  - first:
+      213: 8166080329124381085
+    second: Tileset_rpgmaker_139
+  - first:
+      213: 4884405395652024318
+    second: Tileset_rpgmaker_140
+  - first:
+      213: -2343506081063465694
+    second: Tileset_rpgmaker_141
+  - first:
+      213: -3298270560313094118
+    second: Tileset_rpgmaker_142
+  - first:
+      213: 1773879079532612778
+    second: Tileset_rpgmaker_143
+  - first:
+      213: -610386260106748961
+    second: Tileset_rpgmaker_144
+  - first:
+      213: 4964977091116828734
+    second: Tileset_rpgmaker_145
+  - first:
+      213: -4658981247932488750
+    second: Tileset_rpgmaker_146
+  - first:
+      213: -2361665903969657370
+    second: Tileset_rpgmaker_147
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27036007ee6c5c64bbed71e5e8959ae8
+      internalID: -895585619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eefa2d6e6fd8c14fb682a412cac3f4b
+      internalID: -779415686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a85a1806bbacf9458f999c970abe53f
+      internalID: -1004156527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7157ab28377b24f979a9d2061ce91a
+      internalID: -1828822347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf8b1dad39a80244ab98a2a056c6615
+      internalID: -1424879727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a86b3e8c220c840ae4070332126261
+      internalID: 1906219206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a5f2d7c6123f743a96dacafab99651
+      internalID: -742957553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_12
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300985fa11638a247a337acc7b0b109c
+      internalID: 376297714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_13
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65c04aa1b11071439fcde743438dc80
+      internalID: -53793690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f94ff194899bf4cb647cf448638b03
+      internalID: 592638745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d4f602b4839504bb2187f2056e03cb
+      internalID: -1539408415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c810fc57c74fcba40a02c1d54cb9d561
+      internalID: 548024964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230ed062aa9dbe747999c0dc7cee46ad
+      internalID: 119316364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d388e147e8fc4f42aade97487d2b4cc
+      internalID: 1131474836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d5e187df6b0454ebf52da84af437b0
+      internalID: -1615845985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10759e30e6024e44f8e8ddfd100cbf61
+      internalID: -34824983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23db040d4993d464e8681ca5d063e16d
+      internalID: -1551707803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f7a810b00a49146ba5965dd473acb4
+      internalID: 210734181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c74a242b08062446be955591b27be8f
+      internalID: -1561756514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_28
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca09548837099a54ab97d17dd7142d13
+      internalID: -1608150632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_29
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d9eb2ebc71a31418a28b4996356694
+      internalID: 1859731537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfad9567d6d94ad4cbe22e0089ac4b87
+      internalID: -32025403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c2f9c0671170f47b0c5fdce885a0fc
+      internalID: 1643908914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31a2d6ced7758e4da46a19a85bc90de
+      internalID: 1251407747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291f498c060649647912980eaabed458
+      internalID: -1396110277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cc64ecf0f10dd47be92c254d4c1530
+      internalID: -1502690089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670887e4ff314824c91916ba6ada825d
+      internalID: 1895128315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d646eaabf81e5468d773900aec496d
+      internalID: -267112225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_37
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4f85fbe69e3834d9e8c0b8b17f4713
+      internalID: 2136918496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 96
+        height: 144
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f33b97cafb4a4149baa75d379f8b2ba
+      internalID: 145083070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 624
+        width: 96
+        height: 144
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5737c4aee34e51d4c9771b6973597b1a
+      internalID: 592901156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_42
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea952647b4537a408196be3e48f1396
+      internalID: 1297799880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_43
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab350eb7df33f74eb15843c5f834921
+      internalID: 87448419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_44
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2684cc07f81aff94b88912718927439a
+      internalID: -1657489366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_45
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f667667c7b64004f82c07f2adff8ddd
+      internalID: 44287470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152f2ea9ebb83924ca762cf9f816e2b7
+      internalID: -1074873120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51e59ea2b06db14580301e1d64c0bc6
+      internalID: 1740394240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505158e5b66361a4c947293ab5cc502a
+      internalID: 470858109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d36cce3845a3a4581830d8ad697623
+      internalID: 1994901198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10aaf2a3c9eb3f42a2083253e70c989
+      internalID: 1399288725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af57aa2c452b484f89a4d6a5f26aeda
+      internalID: -411303551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_52
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7d46b19a051c642bc06b669fe08ad6
+      internalID: -829594008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_53
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac6a1433997c9b4384764b4d2e8773a
+      internalID: -1219073588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ff2ed377b9a6e41a101c0ac26c783a
+      internalID: 1462174910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4579952efdca6664f867f2710f40df7c
+      internalID: 712463712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_56
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fcb5ebfe708514489b0af6288ca54e
+      internalID: -1511116150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd39eccdd2407b45a3d3c94c1cee355
+      internalID: -224403939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_58
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66e544f8c7812e4f865d7d4b8263834
+      internalID: 1115134274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_59
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac4ff700a9ef34439a8bf6062229895
+      internalID: -294489802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_60
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399d6db31e5d5ca4a877b9fedb0f13cc
+      internalID: -1890373319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ecd8d4e62fe704fa415e0b7eb35286
+      internalID: 1599893947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971ff7f22b48dce4c865e11cb93482d0
+      internalID: 2101043936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7fda46080af8f459d4d94e65349bcc
+      internalID: -46213154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37694866c4accd478f3ff7db9d9dfb3
+      internalID: -57835872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8260c42dccce646b8dfc3330fc7ba0
+      internalID: -1889047823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d940fd892a9fd54ea365cd0f2e39f5b
+      internalID: 766858848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_67
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0f2e54cafd4cb47a3e5cf6e59e92d5
+      internalID: 522346244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_68
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306cd6ac9efdf70438b3838927c25980
+      internalID: 1309698819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_69
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8b3d18cc59c784ebb488e15099afc8
+      internalID: -1000916297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6813dff0da85bd043b00859f58fab195
+      internalID: -1742019039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cb8ee1215cea34084f0db5bce97c34
+      internalID: -1158446762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b75d1958dad264bb927fa305b27930
+      internalID: -1593578255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7019f4b549d88584f8f37d6aa746f60e
+      internalID: 2074836454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_79
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b50d378f9f67f409b74f5df9c272d5
+      internalID: -1104324360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_80
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a4e960c5c23b048ac7b6fde375e316
+      internalID: -695529960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41ba7c8d40ead94a9efb133500ebe49
+      internalID: -1536583516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_82
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb21552200f01e54693611e61aef1f28
+      internalID: -515798612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d64ca6adca5c94e96a5ef031ef295d
+      internalID: -1468634694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2f919aac46c544a83b306242f36387
+      internalID: 2016239577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_92
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61a9109dd3a95845a73bec8b493855e
+      internalID: -1518127959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9beb1a865c4b6b247b374ceafd4b5198
+      internalID: -780387980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_94
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c562ec5f60fb7e747b4f53e9172b69f1
+      internalID: -19906336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_95
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab91e4e95e589ee4bbe75dbc6b0c2fb8
+      internalID: 1520878566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_97
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62e134918b319f439a42f24ec120fdb
+      internalID: 115311382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_99
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 433
+        width: 96
+        height: 144
+      alignment: 9
+      pivot: {x: 0, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4e343db0fe68742bb91c4d7fe5e750
+      internalID: 1936041002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_100
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 432
+        width: 96
+        height: 144
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61acf9cad38ba4f4698d8e6e0269fe4b
+      internalID: 1310662717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_103
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 432
+        width: 144
+        height: 144
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d606f93f23efe4a8a5550bb2d0dc2f
+      internalID: 102061811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b778b88088a694481b32fcb4e577c9
+      internalID: 414712857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_106
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64455641fa5bf794fbf2828de95a412a
+      internalID: -2052643596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_107
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb80834988bd0e4d8db169ecb92c1a3
+      internalID: -270080844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ec84004732bcb4e9eeedfa9ab58527
+      internalID: -1999581356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_109
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f96debc0eb3cac47a7d78d65b5da5a3
+      internalID: 410067454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_111
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146be0d21d418104fb1d056119e12f15
+      internalID: 419070374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_114
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12c0a8532307f140976d3e4cc6588c8
+      internalID: -385821967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 192
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1b7ce0df2f3bc4887dd28cd6e66d67
+      internalID: -1966922075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 192
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4727f2d06a57045b4ae46cfeac5cf1
+      internalID: 476721805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_127
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 336
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a6347b777e9e04494e4bcc91d3a2bb
+      internalID: -2054761818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_128
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 336
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f42642805d45c41836b642f91ca6c8
+      internalID: -1112540700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_129
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3409d2ab607e5f94697b66df9bbbd081
+      internalID: 736749062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_130
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f51fc09a94f9c4ea1c8cf6a71ba053
+      internalID: -490740697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8116e054d9bf8934fa3c69e39382fb8e
+      internalID: -463598641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_143
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfb5f51c5db32443bb848e574d88abf
+      internalID: -2034268132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_144
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b1e62e03e1c614492ed95adf9e86d5
+      internalID: 565307970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_145
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238ee3af46201dc40beb014cf5bda45e
+      internalID: -1190207439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_146
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25b9e72239a9c443afb935ad6104b70
+      internalID: 41917242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_157
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567c619fef408be4b893fed80e4a9ddb
+      internalID: 1952178456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_158
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3c79935028fd8449945f5d16d5ed3a
+      internalID: -1652638598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_159
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295d2aca2c5bd2749b3bb7b96f0202de
+      internalID: -788686837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_160
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d0aef5ef0690744a62670662bf1e18
+      internalID: -1889459412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_161
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cf4f599ea235c45a0c53337b0beee2
+      internalID: 1405578549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_162
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbd576dc8f87f34f934b27bb230271a
+      internalID: 1869950606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_164
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c619fb1d51087ba499b60ae389109e6b
+      internalID: -1362653372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_174
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc448f287a088264bb7a7acb5f365308
+      internalID: -959561060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_175
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9e7865f91061145bf721ba5d1d75ca
+      internalID: 1576081016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_176
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5f8f8ae6509fa438e98bda270e177f
+      internalID: 1490845573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_177
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda3c020dcff35f409f415d49fccaf4a
+      internalID: -1984296982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_178
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e551651337d6c54885b020773ea6251
+      internalID: -821932457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_180
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c20e1dba0b1a6345be597b9bff27da5
+      internalID: 1263075256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_181
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 144
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ef29cdc552935469ef9834d39ead44
+      internalID: 482718258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_182
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 144
+        width: 95
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b778c6c97f081a247b6477cad9697fa0
+      internalID: -901387122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_184
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 96
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daff34a2e29bfc4abbbcbe5199b2f05
+      internalID: -1629882591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_186
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af55142061d5b34bad89b5596afe862
+      internalID: 1975529872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_189
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 144
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faae6fe5d817ea40be3b5b10fbd2846
+      internalID: -1046249427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_190
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47152f5f730fd743b0a1df2ad750922
+      internalID: -1418575496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_191
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc263f06c6bd1a84788dee986dbbaac2
+      internalID: 1806054877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_192
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781d09b3a7a97ba40bc512bdc6239a82
+      internalID: -1775341547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_193
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a90f4b688af0a343a91e52ab1af4d61
+      internalID: -988120603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_194
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a968029c0702894ab44fd712be2ed1a
+      internalID: 267070233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97596c737479953488fe9c6b41168716
+      internalID: -680361890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_196
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d906af4f9127db4299117b9d9e81ea3
+      internalID: -125159986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_197
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd86649b00af6d94d90e94c52fb96e0a
+      internalID: -1660157974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_198
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f1f8d3a39746142a7887f5c92f3eee
+      internalID: 1296194486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_199
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c83b3034b4d4a499f22b3e9afc259f
+      internalID: 1728495251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_200
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf8c0734dd4b894c9179d1fb7deee2a
+      internalID: 1257524340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_201
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004f7a5314eba6345a08b6ecfcf5d689
+      internalID: -1671872377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_202
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27edccd67dde5343be273f61f16dbef
+      internalID: -1906414086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_205
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 144
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba47588bbad436f4494163f541b90100
+      internalID: -424652108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_206
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae413c672e350164aa4061abd4de700d
+      internalID: -1518309905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_207
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce72a0a4aaa10214eb470084cf296f2c
+      internalID: -766261092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_215
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32736ef9da0de8f45b770dfe0fcd01f8
+      internalID: 961997339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_216
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eacd01a09e038458055681a2e8bdbb
+      internalID: 1360254634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_217
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db02b5c00ce39043a2d041bd87ee8e2
+      internalID: -981698735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_218
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85de9cdc9a4e8043871f524e9d24280
+      internalID: 2088348729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_219
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f499cbf38e8948d4cbfb7d834a9e4b5e
+      internalID: -1167001069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_220
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e31a0679ffa8c4592e846a268b5ddc
+      internalID: 1398722242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_221
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dce71a70367dda41973e55147bb6ef5
+      internalID: -1197496685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_222
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cca943bf53c5db4095ce7f0971adb57
+      internalID: 1260539210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_223
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eb4a7a0160a73479bd0b27e1d6e414
+      internalID: 354247671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_224
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa69c9f6e3dac5a47b36831a7647550f
+      internalID: -1229469871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_225
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0e2f7e21d799e4ea156b73ae139e82
+      internalID: 1669271260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_226
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71a52a5dbf651744958b8384f4ea24b
+      internalID: -575569633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_227
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbc7fd7a34b4164b8260f5b60ac4517
+      internalID: -2130145888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_rpgmaker_228
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e68fcf4ac3fbfa45aa773afeb14c3d8
+      internalID: -410000896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 57f64499cf58c5c4d84e57bec521dfaf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tileset_rpgmaker_0: -895585619
+      Tileset_rpgmaker_1: -779415686
+      Tileset_rpgmaker_10: 833184715
+      Tileset_rpgmaker_100: 1310662717
+      Tileset_rpgmaker_101: -1687407381
+      Tileset_rpgmaker_102: -1164721977
+      Tileset_rpgmaker_103: 102061811
+      Tileset_rpgmaker_104: 414712857
+      Tileset_rpgmaker_105: 1795993956
+      Tileset_rpgmaker_106: -2052643596
+      Tileset_rpgmaker_107: -270080844
+      Tileset_rpgmaker_108: -1999581356
+      Tileset_rpgmaker_109: 410067454
+      Tileset_rpgmaker_11: -742957553
+      Tileset_rpgmaker_110: 1077005876
+      Tileset_rpgmaker_111: 419070374
+      Tileset_rpgmaker_112: -1087483675
+      Tileset_rpgmaker_113: -251459225
+      Tileset_rpgmaker_114: -385821967
+      Tileset_rpgmaker_115: -1966922075
+      Tileset_rpgmaker_116: -1989661992
+      Tileset_rpgmaker_117: 1435030259
+      Tileset_rpgmaker_118: 1924983852
+      Tileset_rpgmaker_119: 373390196
+      Tileset_rpgmaker_12: 376297714
+      Tileset_rpgmaker_120: 323121196
+      Tileset_rpgmaker_121: 613861934
+      Tileset_rpgmaker_122: 476721805
+      Tileset_rpgmaker_123: 659839553
+      Tileset_rpgmaker_124: -724606458
+      Tileset_rpgmaker_125: -1248984664
+      Tileset_rpgmaker_126: -609431619
+      Tileset_rpgmaker_127: -2054761818
+      Tileset_rpgmaker_128: -1112540700
+      Tileset_rpgmaker_129: 736749062
+      Tileset_rpgmaker_13: -53793690
+      Tileset_rpgmaker_130: -490740697
+      Tileset_rpgmaker_131: 796893777
+      Tileset_rpgmaker_132: 734914126
+      Tileset_rpgmaker_133: 1146265845
+      Tileset_rpgmaker_134: -195076710
+      Tileset_rpgmaker_135: -740203648
+      Tileset_rpgmaker_136: 1271576883
+      Tileset_rpgmaker_137: -2056286708
+      Tileset_rpgmaker_138: 42237518
+      Tileset_rpgmaker_139: 1015555965
+      Tileset_rpgmaker_14: 592638745
+      Tileset_rpgmaker_140: -463598641
+      Tileset_rpgmaker_141: 2110432882
+      Tileset_rpgmaker_142: 752434905
+      Tileset_rpgmaker_143: -2034268132
+      Tileset_rpgmaker_144: 565307970
+      Tileset_rpgmaker_145: -1190207439
+      Tileset_rpgmaker_146: 41917242
+      Tileset_rpgmaker_147: 1016874455
+      Tileset_rpgmaker_148: 157426439
+      Tileset_rpgmaker_149: 2011050006
+      Tileset_rpgmaker_15: -1539408415
+      Tileset_rpgmaker_150: -835503277
+      Tileset_rpgmaker_151: 109932983
+      Tileset_rpgmaker_152: -1788612423
+      Tileset_rpgmaker_153: -1677430362
+      Tileset_rpgmaker_154: -1765999859
+      Tileset_rpgmaker_155: 983207061
+      Tileset_rpgmaker_156: -824974930
+      Tileset_rpgmaker_157: 1952178456
+      Tileset_rpgmaker_158: -1652638598
+      Tileset_rpgmaker_159: -788686837
+      Tileset_rpgmaker_16: 548024964
+      Tileset_rpgmaker_160: -1889459412
+      Tileset_rpgmaker_161: 1405578549
+      Tileset_rpgmaker_162: 1869950606
+      Tileset_rpgmaker_163: -680982527
+      Tileset_rpgmaker_164: -1362653372
+      Tileset_rpgmaker_165: -850870972
+      Tileset_rpgmaker_166: -291445601
+      Tileset_rpgmaker_167: 1605490610
+      Tileset_rpgmaker_168: 1304977930
+      Tileset_rpgmaker_169: 1112540304
+      Tileset_rpgmaker_17: 119316364
+      Tileset_rpgmaker_170: 1255824360
+      Tileset_rpgmaker_171: 999835124
+      Tileset_rpgmaker_172: 654580857
+      Tileset_rpgmaker_173: -94793101
+      Tileset_rpgmaker_174: -959561060
+      Tileset_rpgmaker_175: 1576081016
+      Tileset_rpgmaker_176: 1490845573
+      Tileset_rpgmaker_177: -1984296982
+      Tileset_rpgmaker_178: -821932457
+      Tileset_rpgmaker_179: 1764081932
+      Tileset_rpgmaker_18: 1131474836
+      Tileset_rpgmaker_180: 1263075256
+      Tileset_rpgmaker_181: 482718258
+      Tileset_rpgmaker_182: -901387122
+      Tileset_rpgmaker_183: 1392007196
+      Tileset_rpgmaker_184: -1629882591
+      Tileset_rpgmaker_185: -1678714253
+      Tileset_rpgmaker_186: 1975529872
+      Tileset_rpgmaker_187: -531028755
+      Tileset_rpgmaker_188: 1100201721
+      Tileset_rpgmaker_189: -1046249427
+      Tileset_rpgmaker_19: -1615845985
+      Tileset_rpgmaker_190: -1418575496
+      Tileset_rpgmaker_191: 1806054877
+      Tileset_rpgmaker_192: -1775341547
+      Tileset_rpgmaker_193: -988120603
+      Tileset_rpgmaker_194: 267070233
+      Tileset_rpgmaker_195: -680361890
+      Tileset_rpgmaker_196: -125159986
+      Tileset_rpgmaker_197: -1660157974
+      Tileset_rpgmaker_198: 1296194486
+      Tileset_rpgmaker_199: 1728495251
+      Tileset_rpgmaker_2: 362360376
+      Tileset_rpgmaker_20: -34824983
+      Tileset_rpgmaker_200: 1257524340
+      Tileset_rpgmaker_201: -1671872377
+      Tileset_rpgmaker_202: -1906414086
+      Tileset_rpgmaker_203: -683026267
+      Tileset_rpgmaker_204: -1905448064
+      Tileset_rpgmaker_205: -424652108
+      Tileset_rpgmaker_206: -1518309905
+      Tileset_rpgmaker_207: -766261092
+      Tileset_rpgmaker_208: -1709851039
+      Tileset_rpgmaker_209: 1555148041
+      Tileset_rpgmaker_21: -1551707803
+      Tileset_rpgmaker_210: 751661038
+      Tileset_rpgmaker_211: -781492521
+      Tileset_rpgmaker_212: 724750156
+      Tileset_rpgmaker_213: 911618817
+      Tileset_rpgmaker_214: -1145817191
+      Tileset_rpgmaker_215: 961997339
+      Tileset_rpgmaker_216: 1360254634
+      Tileset_rpgmaker_217: -981698735
+      Tileset_rpgmaker_218: 2088348729
+      Tileset_rpgmaker_219: -1167001069
+      Tileset_rpgmaker_22: 210734181
+      Tileset_rpgmaker_220: 1398722242
+      Tileset_rpgmaker_221: -1197496685
+      Tileset_rpgmaker_222: 1260539210
+      Tileset_rpgmaker_223: 354247671
+      Tileset_rpgmaker_224: -1229469871
+      Tileset_rpgmaker_225: 1669271260
+      Tileset_rpgmaker_226: -575569633
+      Tileset_rpgmaker_227: -2130145888
+      Tileset_rpgmaker_228: -410000896
+      Tileset_rpgmaker_23: -273609380
+      Tileset_rpgmaker_24: 2035567619
+      Tileset_rpgmaker_25: -1577876975
+      Tileset_rpgmaker_26: -202572350
+      Tileset_rpgmaker_27: -1561756514
+      Tileset_rpgmaker_28: -1608150632
+      Tileset_rpgmaker_29: 1859731537
+      Tileset_rpgmaker_3: -1004156527
+      Tileset_rpgmaker_30: -32025403
+      Tileset_rpgmaker_31: 1643908914
+      Tileset_rpgmaker_32: 1251407747
+      Tileset_rpgmaker_33: -1396110277
+      Tileset_rpgmaker_34: -1502690089
+      Tileset_rpgmaker_35: 1895128315
+      Tileset_rpgmaker_36: -267112225
+      Tileset_rpgmaker_37: 2136918496
+      Tileset_rpgmaker_38: -1599929208
+      Tileset_rpgmaker_39: 145083070
+      Tileset_rpgmaker_4: -1828822347
+      Tileset_rpgmaker_40: 1626030204
+      Tileset_rpgmaker_41: 592901156
+      Tileset_rpgmaker_42: 1297799880
+      Tileset_rpgmaker_43: 87448419
+      Tileset_rpgmaker_44: -1657489366
+      Tileset_rpgmaker_45: 44287470
+      Tileset_rpgmaker_46: -1074873120
+      Tileset_rpgmaker_47: 1740394240
+      Tileset_rpgmaker_48: 470858109
+      Tileset_rpgmaker_49: 1994901198
+      Tileset_rpgmaker_5: -1424879727
+      Tileset_rpgmaker_50: 1399288725
+      Tileset_rpgmaker_51: -411303551
+      Tileset_rpgmaker_52: -829594008
+      Tileset_rpgmaker_53: -1219073588
+      Tileset_rpgmaker_54: 1462174910
+      Tileset_rpgmaker_55: 712463712
+      Tileset_rpgmaker_56: -1511116150
+      Tileset_rpgmaker_57: -224403939
+      Tileset_rpgmaker_58: 1115134274
+      Tileset_rpgmaker_59: -294489802
+      Tileset_rpgmaker_6: 1906219206
+      Tileset_rpgmaker_60: -1890373319
+      Tileset_rpgmaker_61: 1599893947
+      Tileset_rpgmaker_62: 2101043936
+      Tileset_rpgmaker_63: -46213154
+      Tileset_rpgmaker_64: -57835872
+      Tileset_rpgmaker_65: -1889047823
+      Tileset_rpgmaker_66: 766858848
+      Tileset_rpgmaker_67: 522346244
+      Tileset_rpgmaker_68: 1309698819
+      Tileset_rpgmaker_69: -1000916297
+      Tileset_rpgmaker_7: -722155266
+      Tileset_rpgmaker_70: -1089789807
+      Tileset_rpgmaker_71: 1508493772
+      Tileset_rpgmaker_72: -429601182
+      Tileset_rpgmaker_73: -1825017172
+      Tileset_rpgmaker_74: -11175096
+      Tileset_rpgmaker_75: -1742019039
+      Tileset_rpgmaker_76: -1158446762
+      Tileset_rpgmaker_77: -1593578255
+      Tileset_rpgmaker_78: 2074836454
+      Tileset_rpgmaker_79: -1104324360
+      Tileset_rpgmaker_8: 649323452
+      Tileset_rpgmaker_80: -695529960
+      Tileset_rpgmaker_81: -1536583516
+      Tileset_rpgmaker_82: -515798612
+      Tileset_rpgmaker_83: -1468634694
+      Tileset_rpgmaker_84: 198383591
+      Tileset_rpgmaker_85: 932756426
+      Tileset_rpgmaker_86: -1912557759
+      Tileset_rpgmaker_87: 1562804794
+      Tileset_rpgmaker_88: -416174516
+      Tileset_rpgmaker_89: 1451409130
+      Tileset_rpgmaker_9: 1548124639
+      Tileset_rpgmaker_90: -700574606
+      Tileset_rpgmaker_91: 2016239577
+      Tileset_rpgmaker_92: -1518127959
+      Tileset_rpgmaker_93: -780387980
+      Tileset_rpgmaker_94: -19906336
+      Tileset_rpgmaker_95: 1520878566
+      Tileset_rpgmaker_96: 196158321
+      Tileset_rpgmaker_97: 115311382
+      Tileset_rpgmaker_98: 1375780663
+      Tileset_rpgmaker_99: 1936041002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
