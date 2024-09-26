@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Outdoor Objects
+    uniqueID: 134718299
+    locked: 0

@@ -826,6 +826,195 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: PixelFlow_Fantasy_tileset_48x48_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cf0557b5301a449bce0547e5f88beb
+      internalID: 1368590713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFlow_Fantasy_tileset_48x48_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85af2e2c87153c44bed21617a04fff0
+      internalID: 82678933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFlow_Fantasy_tileset_48x48_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0068223942ff1439c79153def80403
+      internalID: 56219356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFlow_Fantasy_tileset_48x48_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2113
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae6cc0167ebc0f4583c217785395d67
+      internalID: -724797144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFlow_Fantasy_tileset_48x48_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2113
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85166a31b459a184fbc2129474318805
+      internalID: 1717919503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFlow_Fantasy_tileset_48x48_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2113
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b232914572f4997499a116ea1b8b1a28
+      internalID: 1371658636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFlow_Fantasy_tileset_48x48_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2065
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbb83dac0c7eab4b98fe789049a12e0
+      internalID: 1241508554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFlow_Fantasy_tileset_48x48_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2065
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2331c5ae70d62fc4f93907292ac4a33a
+      internalID: -1920216292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelFlow_Fantasy_tileset_48x48_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2065
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d023d13bcb4134eb01427144d6e8c8
+      internalID: -1880343319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -843,6 +1032,10 @@ TextureImporter:
       PixelFlow_Fantasy_tileset_48x48_3: 56219356
       PixelFlow_Fantasy_tileset_48x48_4: -724797144
       PixelFlow_Fantasy_tileset_48x48_5: 1717919503
+      PixelFlow_Fantasy_tileset_48x48_6: 1371658636
+      PixelFlow_Fantasy_tileset_48x48_7: 1241508554
+      PixelFlow_Fantasy_tileset_48x48_8: -1920216292
+      PixelFlow_Fantasy_tileset_48x48_9: -1880343319
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
