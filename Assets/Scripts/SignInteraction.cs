@@ -42,7 +42,6 @@ public class SignInteraction : MonoBehaviour
     {
         if (isInRange && Input.GetKeyDown(interactionKey))
         {
-            throw new System.Exception();
             if (interactionMessageInstance != null)
             {
                 bool isActive = interactionMessageInstance.activeSelf;
