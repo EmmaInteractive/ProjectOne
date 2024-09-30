@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TMPro;
+using UnityEditor;
 using UnityEngine;
 
 namespace Assets.Scripts.Services
 {
-    public class DialogService : IDialogService
+    public class DialogService : IDialogService, IBaseService
     {
+        private const string GameCanvasName = "GameCanvas";
+        private const string SignTextPrefabPath = "Prefabs/SignText";
+
         public static DialogService Instance { get; private set; }
 
         public enum DialogResponse
@@ -32,11 +37,32 @@ namespace Assets.Scripts.Services
         {
             int id = 0;
 
-            // do stuff
-
-            lock(_gameTextWindowsLock)
+            lock (_gameTextWindowsLock)
             {
                 id = _lastGameTextWindowId++;
+            }
+
+            // do stuff
+            var sign = Resources.Load<GameObject>(SignTextPrefabPath);
+
+            if (sign != null)
+            {
+                //var worldPosition = position;
+                //var screenPosition = RectTransformUtility.WorldToScreenPoint(Camera.main, worldPosition);
+
+                var signObject = GameObject.Instantiate(sign, screenPosition, Quaternion.identity);
+                var textObject = signObject.GetComponentInChildren<TextMeshProUGUI>();
+
+                sign.GetComponent<RectTransform>().transform.position = screenPosition;
+                if (textObject is null)
+                    return -1;
+                textObject.text = text;
+
+                var canvas = GameObject.Find(GameCanvasName);
+
+                signObject.transform.SetParent(canvas.transform, false);
+                signObject.SetActive(true);
+                _gameTextWindows.Add(id, signObject);
             }
 
             // If the duration is set start a task that waits for the duration and then closes the window
@@ -59,11 +85,6 @@ namespace Assets.Scripts.Services
                 return;
 
             // Do stuff
-
-            lock (_gameTextWindows)
-            {
-                _gameTextWindows.Remove(id);
-            }
         }
     }
 }

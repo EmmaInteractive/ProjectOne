@@ -1,22 +1,20 @@
 ﻿using Assets.Scripts.Services;
-using System;
 using UnityEngine;
 
 namespace Assets.Scripts.GameObjects
 {
     public class Sign : BaseObject, IInteractable
     {
-        public string PopupText { get; set; }
-
         [SerializeField]
-        public bool IsEnabled { get; set; }
+        private bool isEnabled = true;
+        [SerializeField]
+        private string _popupText;
 
-        private Rigidbody2D _rb;
 
-        void Start()
-        {
-            _rb = GetComponent<Rigidbody2D>();
-        }
+        private int _gameTextWindowId;
+
+        public string PopupText { get => _popupText; set => _popupText = value; }
+        public bool IsEnabled { get => isEnabled; set => isEnabled = value; }
 
         public bool CanInteract() => true;
 
@@ -31,8 +29,12 @@ namespace Assets.Scripts.GameObjects
 
         private void ShowGameText()
         {
-            var ownPosition = _rb.transform.position;
-            DialogService.Instance.ShowGameTextWindow(ownPosition, PopupText);
+            _gameTextWindowId = DialogService.Instance.ShowGameTextWindow(transform.position, PopupText);
+        }
+
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            DialogService.Instance.CloseGameTextWindow(_gameTextWindowId);
         }
     }
 }

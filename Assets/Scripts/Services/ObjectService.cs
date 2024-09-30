@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts.Services
 {
-    public class ObjectService : IObjectService
+    public class ObjectService : IObjectService, IBaseService
     {
         private readonly List<BaseObject> gameObjects;
 
