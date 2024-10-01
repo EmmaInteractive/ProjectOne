@@ -11,7 +11,7 @@ namespace Assets.Scripts.Services
     public class DialogService : IDialogService, IBaseService
     {
         private const string GameCanvasName = "GameCanvas";
-        private const string SignTextPrefabPath = "Prefabs/SignText";
+        private const string SignTextPrefabPath = "Prefabs/SignTextPrefab";
 
         public static DialogService Instance { get; private set; }
 
@@ -33,7 +33,7 @@ namespace Assets.Scripts.Services
         }
 
         /// <inheritdoc/>
-        public int ShowGameTextWindow(Vector3 position, string text, int? duration = null)
+        public int ShowGameTextWindow(GameObject parent, Vector3 position, string text, int? duration = null)
         {
             int id = 0;
 
@@ -47,20 +47,14 @@ namespace Assets.Scripts.Services
 
             if (sign != null)
             {
-                //var worldPosition = position;
-                //var screenPosition = RectTransformUtility.WorldToScreenPoint(Camera.main, worldPosition);
-
-                var signObject = GameObject.Instantiate(sign, screenPosition, Quaternion.identity);
+                var signObject = GameObject.Instantiate(sign, new Vector3(0, 1, 0), Quaternion.identity);
                 var textObject = signObject.GetComponentInChildren<TextMeshProUGUI>();
 
-                sign.GetComponent<RectTransform>().transform.position = screenPosition;
                 if (textObject is null)
                     return -1;
                 textObject.text = text;
 
-                var canvas = GameObject.Find(GameCanvasName);
-
-                signObject.transform.SetParent(canvas.transform, false);
+                signObject.transform.SetParent(parent.transform, false);
                 signObject.SetActive(true);
                 _gameTextWindows.Add(id, signObject);
             }

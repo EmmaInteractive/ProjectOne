@@ -29,7 +29,7 @@ namespace Assets.Scripts.GameObjects
 
         private void ShowGameText()
         {
-            _gameTextWindowId = DialogService.Instance.ShowGameTextWindow(transform.position, PopupText);
+            _gameTextWindowId = DialogService.Instance.ShowGameTextWindow(this.gameObject, transform.position, PopupText);
         }
 
         private void OnTriggerExit2D(Collider2D collision)
