@@ -32,9 +32,9 @@ namespace Assets.Scripts.Services
         }
 
         /// <inheritdoc/>
-        public int ShowGameTextWindow(GameObject parent, Vector3 position, string text, int? duration = null, int id = 0)
+        public int ShowGameTextWindow(GameObject parent, Vector3 position, string text, int? duration = null, int id = -1)
         {
-            if (id != 0)
+            if (id != -1)
             {
                 _gameTextWindows[id].SetActive(true);
                 return id;
