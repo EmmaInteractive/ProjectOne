@@ -2,8 +2,15 @@ using UnityEngine;
 
 namespace Assets.Scripts.Services
 {
-    public class HouseService
+    public class TeleportationService : IBaseService
     {
+        public static TeleportationService Instance { get; private set; }
+
+        public TeleportationService()
+        {
+            Instance = this;
+        }
+
         public void TeleportPlayer(GameObject player, GameObject houseInterior)
         {
             if (player != null && houseInterior != null)
@@ -21,17 +28,6 @@ namespace Assets.Scripts.Services
                 player.transform.rotation = Quaternion.identity;
                 Debug.Log($"Player new position: {player.transform.position}");
             }
-        }
-
-        public bool CanPlayerInteract(GameObject house, GameObject player, float interactionDistance)
-        {
-            if (player != null)
-            {
-                float distanceToPlayer = Vector3.Distance(house.transform.position, player.transform.position);
-                return distanceToPlayer < interactionDistance;
-            }
-
-            return false;
         }
     }
 }

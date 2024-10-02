@@ -11,30 +11,23 @@ namespace Assets.Scripts.GameObjects
         [SerializeField]
         private GameObject houseInterior; 
 
-        private HouseService houseService; 
+        private TeleportationService houseService; 
         private bool isInteriorActive = false;
 
-        
-        public House()
+        void Start()
         {
-            houseService = new HouseService(); 
+            houseService = TeleportationService.Instance;
         }
-
         
         public void Interact()
         {
-            if (IsEnabled)
+            if (IsEnabled && CanInteract())
             {
-                Enter(); 
+                Enter();
             }
         }
 
-        
-        public bool CanInteract()
-        {
-            GameObject player = GameObject.FindWithTag("Player");
-            return houseService.CanPlayerInteract(gameObject, player, 2.0f); 
-        }
+        public bool CanInteract() => true;
 
         private void Enter() 
         {
@@ -45,14 +38,6 @@ namespace Assets.Scripts.GameObjects
 
                 GameObject player = GameObject.FindWithTag("Player");
                 houseService.TeleportPlayer(player, houseInterior); 
-            }
-        }
-
-        void Update()
-        {
-            if (CanInteract() && Input.GetKeyDown(KeyCode.E))
-            {
-                Interact(); 
             }
         }
     }
