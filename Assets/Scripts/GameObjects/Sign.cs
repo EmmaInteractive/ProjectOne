@@ -11,7 +11,7 @@ namespace Assets.Scripts.GameObjects
         private string _popupText;
 
 
-        private int _gameTextWindowId;
+        private int _gameTextWindowId = -1;
 
         public string PopupText { get => _popupText; set => _popupText = value; }
         public bool IsEnabled { get => isEnabled; set => isEnabled = value; }
@@ -29,7 +29,7 @@ namespace Assets.Scripts.GameObjects
 
         private void ShowGameText()
         {
-            _gameTextWindowId = DialogService.Instance.ShowGameTextWindow(this.gameObject, transform.position, PopupText);
+            _gameTextWindowId = DialogService.Instance.ShowGameTextWindow(this.gameObject, transform.position, PopupText, id: _gameTextWindowId);
         }
 
         private void OnTriggerExit2D(Collider2D collision)

@@ -10,7 +10,6 @@ namespace Assets.Scripts.Services
 {
     public class DialogService : IDialogService, IBaseService
     {
-        private const string GameCanvasName = "GameCanvas";
         private const string SignTextPrefabPath = "Prefabs/SignTextPrefab";
 
         public static DialogService Instance { get; private set; }
@@ -33,16 +32,19 @@ namespace Assets.Scripts.Services
         }
 
         /// <inheritdoc/>
-        public int ShowGameTextWindow(GameObject parent, Vector3 position, string text, int? duration = null)
+        public int ShowGameTextWindow(GameObject parent, Vector3 position, string text, int? duration = null, int id = -1)
         {
-            int id = 0;
+            if (id != -1)
+            {
+                _gameTextWindows[id].SetActive(true);
+                return id;
+            }
 
             lock (_gameTextWindowsLock)
             {
                 id = _lastGameTextWindowId++;
             }
 
-            // do stuff
             var sign = Resources.Load<GameObject>(SignTextPrefabPath);
 
             if (sign != null)
@@ -78,7 +80,7 @@ namespace Assets.Scripts.Services
             if (gameTextWindow.Value is null)
                 return;
 
-            // Do stuff
+            gameTextWindow.Value.SetActive(false);
         }
     }
 }

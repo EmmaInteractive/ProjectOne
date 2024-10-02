@@ -12,8 +12,9 @@ namespace Assets.Scripts.Interfaces
         /// <param name="position">Position of the text.</param>
         /// <param name="text">The text to display.</param>
         /// <param name="duration">The duration until the window closes itself. If null the window only closes by calling Close</param>
+        /// <param name="id">The id of the window if it has been created previously.</param>
         /// <returns>The id of the window which is needed to close it later.</returns>
-        public int ShowGameTextWindow(GameObject parent, Vector3 position, string text, int? duration = null);
+        public int ShowGameTextWindow(GameObject parent, Vector3 position, string text, int? duration = null, int id = 0);
 
         /// <summary>
         /// Closes the window with the specified id.
