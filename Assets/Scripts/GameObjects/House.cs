@@ -3,9 +3,11 @@ using Assets.Scripts.Services;
 
 namespace Assets.Scripts.GameObjects
 {
-    public class House : BaseObject, IEnterable
+    public class House : BaseObject, IInteractable
     {
+        public string PopupText { get; set; } = ""; 
         public bool IsEnabled { get; set; } = true; 
+
         [SerializeField]
         private GameObject houseInterior; 
 
@@ -18,16 +20,12 @@ namespace Assets.Scripts.GameObjects
             houseService = new HouseService(); 
         }
 
-       
-        public void Enter()
+        
+        public void Interact()
         {
-            if (!isInteriorActive && IsEnabled)
+            if (IsEnabled)
             {
-                isInteriorActive = true;
-                houseInterior.SetActive(true); 
-
-                GameObject player = GameObject.FindWithTag("Player");
-                houseService.TeleportPlayer(player, houseInterior); 
+                Enter(); 
             }
         }
 
@@ -38,11 +36,23 @@ namespace Assets.Scripts.GameObjects
             return houseService.CanPlayerInteract(gameObject, player, 2.0f); 
         }
 
+        private void Enter() 
+        {
+            if (!isInteriorActive)
+            {
+                isInteriorActive = true;
+                houseInterior.SetActive(true); 
+
+                GameObject player = GameObject.FindWithTag("Player");
+                houseService.TeleportPlayer(player, houseInterior); 
+            }
+        }
+
         void Update()
         {
             if (CanInteract() && Input.GetKeyDown(KeyCode.E))
             {
-                Enter(); 
+                Interact(); 
             }
         }
     }
