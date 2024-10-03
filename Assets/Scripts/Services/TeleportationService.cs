@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts.Services
 {
@@ -15,19 +16,45 @@ namespace Assets.Scripts.Services
         {
             if (player != null && houseInterior != null)
             {
-                float xPosition = houseInterior.transform.position.x;
-                float yPosition = houseInterior.transform.position.y;
-                float zPosition = houseInterior.transform.position.z;
+                Vector3 newPosition = houseInterior.transform.position;
+                newPosition.z += 0.1f;
 
-               
-                zPosition += 0.1f;
-
-                Vector3 newPosition = new Vector3(xPosition, yPosition, zPosition);
-                Debug.Log($"Teleporting player from {player.transform.position} to {newPosition}");
                 player.transform.position = newPosition;
                 player.transform.rotation = Quaternion.identity;
-                Debug.Log($"Player new position: {player.transform.position}");
+
+                Debug.Log($"Player teleported to: {newPosition}");
             }
+        }
+
+       
+        public void LoadSceneAndTeleport(string sceneName, string targetObjectName)
+        {
+            
+            SceneManager.sceneLoaded += (scene, mode) => OnSceneLoaded(scene, targetObjectName);
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Single); 
+        }
+
+        private void OnSceneLoaded(Scene scene, string targetObjectName)
+        {
+            
+            GameObject player = GameObject.FindWithTag("Player");
+            GameObject targetObject = GameObject.Find(targetObjectName);
+
+            if (player != null && targetObject != null)
+            {
+                Vector3 targetPosition = targetObject.transform.position;
+                player.transform.position = targetPosition;
+                player.transform.rotation = Quaternion.identity;
+
+                Debug.Log($"Player teleported to: {targetPosition} in scene: {scene.name}");
+            }
+            else
+            {
+                Debug.LogError("Player or targetObject not found in the new scene.");
+            }
+
+            
+            SceneManager.sceneLoaded -= (scene, mode) => OnSceneLoaded(scene, targetObjectName);
         }
     }
 }

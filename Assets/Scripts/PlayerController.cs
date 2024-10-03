@@ -12,11 +12,11 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
+        DontDestroyOnLoad(gameObject);
         _rb = GetComponent<Rigidbody2D>();
         _rb.gravityScale = 0;
         _rb.freezeRotation = true;
         _rb.interpolation = RigidbodyInterpolation2D.None;
-        
     }
 
     void Update()
@@ -35,11 +35,12 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var interactable = collision.GetComponentInParent<IInteractable>();
-        if (interactable is IInteractable) 
+        if (interactable is IInteractable)
         {
             _interactable = interactable;
             Debug.Log("Can interact!");
-        } else
+        }
+        else
         {
             Debug.Log("No. :C");
         }

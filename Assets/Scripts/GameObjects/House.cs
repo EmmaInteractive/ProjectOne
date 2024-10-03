@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using Assets.Scripts.Services;
 
 namespace Assets.Scripts.GameObjects
@@ -10,10 +9,13 @@ namespace Assets.Scripts.GameObjects
         public bool IsEnabled { get; set; } = true;
 
         [SerializeField]
-        private GameObject houseInterior;
+        private GameObject houseInterior;  
 
         private TeleportationService teleportationService;
         private bool isInteriorActive = false;
+
+        [SerializeField]
+        private bool isDungeonEntrance = false;  
 
         public House()
         {
@@ -24,26 +26,15 @@ namespace Assets.Scripts.GameObjects
         {
             if (IsEnabled)
             {
-                if (houseInterior != null)
+                if (isDungeonEntrance)
                 {
-                    EnterHouse();
+                    EnterDungeon();  
                 }
-                else
+                else if (houseInterior != null)
                 {
-                    LoadDungeonScene();
+                    EnterHouse();  
                 }
             }
-        }
-
-        public bool CanInteract()
-        {
-            GameObject player = GameObject.FindWithTag("Player");
-            if (player != null)
-            {
-                float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
-                return distanceToPlayer < 2.0f; 
-            }
-            return false;
         }
 
         private void EnterHouse()
@@ -53,20 +44,32 @@ namespace Assets.Scripts.GameObjects
                 isInteriorActive = true;
                 houseInterior.SetActive(true);
                 GameObject player = GameObject.FindWithTag("Player");
-                teleportationService.TeleportPlayer(player, houseInterior);
+                teleportationService.TeleportPlayer(player, houseInterior);  
             }
         }
 
-        private void LoadDungeonScene()
+        private void EnterDungeon()
         {
-            SceneManager.LoadScene("DungeonScene");
+            
+            teleportationService.LoadSceneAndTeleport("DungeonScene", "DungeonInterior");  
+        }
+
+        public bool CanInteract()
+        {
+            GameObject player = GameObject.FindWithTag("Player");
+            if (player != null)
+            {
+                float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+                return distanceToPlayer < 2.0f;  
+            }
+            return false;
         }
 
         void Update()
         {
             if (CanInteract() && Input.GetKeyDown(KeyCode.E))
             {
-                Interact();
+                Interact();  
             }
         }
     }
