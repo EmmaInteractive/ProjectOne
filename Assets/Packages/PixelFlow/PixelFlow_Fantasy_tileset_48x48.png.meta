@@ -1183,6 +1183,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: PixelFlow_Fantasy_tileset_48x48_18
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2010
+        width: 185
+        height: 197
+      alignment: 9
+      pivot: {x: 0.53213614, y: 0.49999875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab8039f5eb902640ac99dadd4a272b3
+      internalID: 718157597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1204,6 +1225,7 @@ TextureImporter:
       PixelFlow_Fantasy_tileset_48x48_15: -377785380
       PixelFlow_Fantasy_tileset_48x48_16: 407514009
       PixelFlow_Fantasy_tileset_48x48_17: 696245735
+      PixelFlow_Fantasy_tileset_48x48_18: 718157597
       PixelFlow_Fantasy_tileset_48x48_2: 82678933
       PixelFlow_Fantasy_tileset_48x48_3: 56219356
       PixelFlow_Fantasy_tileset_48x48_4: -724797144
