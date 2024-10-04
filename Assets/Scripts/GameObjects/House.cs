@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Assets.Scripts.Services;
 
 namespace Assets.Scripts.GameObjects
@@ -9,13 +10,16 @@ namespace Assets.Scripts.GameObjects
         public bool IsEnabled { get; set; } = true;
 
         [SerializeField]
-        private GameObject houseInterior;  
+        private GameObject houseInterior;
 
         private TeleportationService teleportationService;
         private bool isInteriorActive = false;
 
         [SerializeField]
-        private bool isDungeonEntrance = false;  
+        private bool isDungeonEntrance = false;
+
+        [SerializeField]
+        private bool isGuildHallEntrance = false;
 
         public House()
         {
@@ -28,11 +32,15 @@ namespace Assets.Scripts.GameObjects
             {
                 if (isDungeonEntrance)
                 {
-                    EnterDungeon();  
+                    EnterDungeon();
+                }
+                else if (isGuildHallEntrance)
+                {
+                    EnterGuildHall();
                 }
                 else if (houseInterior != null)
                 {
-                    EnterHouse();  
+                    EnterHouse();
                 }
             }
         }
@@ -44,14 +52,18 @@ namespace Assets.Scripts.GameObjects
                 isInteriorActive = true;
                 houseInterior.SetActive(true);
                 GameObject player = GameObject.FindWithTag("Player");
-                teleportationService.TeleportPlayer(player, houseInterior);  
+                teleportationService.TeleportPlayer(player, houseInterior);
             }
         }
 
         private void EnterDungeon()
         {
-            
-            teleportationService.LoadSceneAndTeleport("DungeonScene", "DungeonInterior");  
+            teleportationService.LoadSceneAndTeleport("DungeonScene", "DungeonInterior");
+        }
+
+        private void EnterGuildHall()
+        {
+            teleportationService.LoadSceneAndTeleport("GuildHallScene", "GuildHallInterior");
         }
 
         public bool CanInteract()
@@ -60,7 +72,7 @@ namespace Assets.Scripts.GameObjects
             if (player != null)
             {
                 float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
-                return distanceToPlayer < 2.0f;  
+                return distanceToPlayer < 2.0f;
             }
             return false;
         }
@@ -69,7 +81,7 @@ namespace Assets.Scripts.GameObjects
         {
             if (CanInteract() && Input.GetKeyDown(KeyCode.E))
             {
-                Interact();  
+                Interact();
             }
         }
     }
