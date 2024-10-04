@@ -1,3 +1,5 @@
+using UnityEditor.Animations;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -9,14 +11,13 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rb;
     private Vector2 _movementInput;
     private IInteractable _interactable;
+    private Animator _animator;
+
 
     void Awake()
     {
-        _rb = GetComponent<Rigidbody2D>();
-        _rb.gravityScale = 0;
-        _rb.freezeRotation = true;
-        _rb.interpolation = RigidbodyInterpolation2D.None;
-        
+        _animator = GetComponent<Animator>();
+         _rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -35,11 +36,12 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var interactable = collision.GetComponentInParent<IInteractable>();
-        if (interactable is IInteractable) 
+        if (interactable is IInteractable)
         {
             _interactable = interactable;
             Debug.Log("Can interact!");
-        } else
+        }
+        else
         {
             Debug.Log("No. :C");
         }
@@ -64,8 +66,24 @@ public class PlayerController : MonoBehaviour
         _movementInput = new Vector2(moveX, moveY).normalized;
     }
 
+    private void SetAnimation(Vector2 direction)
+    {
+        if (direction == Vector2.zero)
+            _animator.Play("idle_down");
+        
+        if (direction.x > 0)
+            _animator.Play("idle_right");
+        else if (direction.x < 0)
+            _animator.Play("idle_left");
+        else if (direction.y < 0)
+            _animator.Play("idle_down");
+        else if (direction.y > 0)
+            _animator.Play("idle_up");
+    }
+
     private void MovePlayer()
     {
+        SetAnimation(_movementInput);
         _rb.velocity = _movementInput * _moveSpeed;
     }
 }

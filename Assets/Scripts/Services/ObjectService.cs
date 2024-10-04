@@ -16,6 +16,7 @@ namespace Assets.Scripts.Services
         public ObjectService()
         {
             Instance = this;
+            gameObjects = new List<BaseObject>(); 
 
             SceneManager.activeSceneChanged += SceneManager_activeSceneChanged;
         }
@@ -27,9 +28,9 @@ namespace Assets.Scripts.Services
 
         private void GetAllGameObjects()
         {
-            GameObjects.Clear();
+            gameObjects.Clear(); 
             var allObjects = GameObject.FindObjectsByType<BaseObject>(FindObjectsInactive.Include, FindObjectsSortMode.InstanceID);
-            GameObjects.AddRange(allObjects);
+            gameObjects.AddRange(allObjects); 
         }
 
         /// <summary>
