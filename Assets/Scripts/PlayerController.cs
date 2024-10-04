@@ -12,11 +12,8 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+       
         _rb = GetComponent<Rigidbody2D>();
-        _rb.gravityScale = 0;
-        _rb.freezeRotation = true;
-        _rb.interpolation = RigidbodyInterpolation2D.None;
     }
 
     void Update()
