@@ -20,22 +20,17 @@ namespace Assets.Scripts.Services
 
                 player.transform.position = destination;
                 player.transform.rotation = Quaternion.identity;
-
-                Debug.Log($"Player teleported to: {destination}");
             }
         }
 
-       
         public void LoadSceneAndTeleport(string sceneName, string targetObjectName)
         {
-            
             SceneManager.sceneLoaded += (scene, mode) => OnSceneLoaded(scene, targetObjectName);
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single); 
         }
 
         private void OnSceneLoaded(Scene scene, string targetObjectName)
         {
-            
             GameObject player = GameObject.FindWithTag("Player");
             GameObject targetObject = GameObject.Find(targetObjectName);
 
@@ -44,15 +39,12 @@ namespace Assets.Scripts.Services
                 Vector3 targetPosition = targetObject.transform.position;
                 player.transform.position = targetPosition;
                 player.transform.rotation = Quaternion.identity;
-
-                Debug.Log($"Player teleported to: {targetPosition} in scene: {scene.name}");
             }
             else
             {
                 Debug.LogError("Player or targetObject not found in the new scene.");
             }
 
-            
             SceneManager.sceneLoaded -= (scene, mode) => OnSceneLoaded(scene, targetObjectName);
         }
     }
