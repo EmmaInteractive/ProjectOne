@@ -52,7 +52,7 @@ namespace Assets.Scripts.GameObjects
                 isInteriorActive = true;
                 houseInterior.SetActive(true);
                 GameObject player = GameObject.FindWithTag("Player");
-                teleportationService.TeleportPlayer(player, houseInterior);
+                teleportationService.TeleportPlayer(player, houseInterior.transform.position);
             }
         }
 

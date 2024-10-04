@@ -12,17 +12,16 @@ namespace Assets.Scripts.Services
             Instance = this;
         }
 
-        public void TeleportPlayer(GameObject player, GameObject houseInterior)
+        public void TeleportPlayer(GameObject player, Vector3 destination)
         {
-            if (player != null && houseInterior != null)
+            if (player != null && destination != null)
             {
-                Vector3 newPosition = houseInterior.transform.position;
-                newPosition.z += 0.1f;
+                destination.z += 0.1f;
 
-                player.transform.position = newPosition;
+                player.transform.position = destination;
                 player.transform.rotation = Quaternion.identity;
 
-                Debug.Log($"Player teleported to: {newPosition}");
+                Debug.Log($"Player teleported to: {destination}");
             }
         }
 
