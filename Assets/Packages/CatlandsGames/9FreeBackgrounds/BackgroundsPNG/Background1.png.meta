@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 47756a2cfdda9a849bded3443d840ec5
+AssetOrigin:
+  serializedVersion: 1
+  productId: 285183
+  packageName: 9 Free Backgrounds
+  packageVersion: 1.0.0
+  assetPath: Assets/CatlandsGames/9FreeBackgrounds/BackgroundsPNG/Background1.png
+  uploadId: 664641
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,11 +27,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +71,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -103,16 +112,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable: {}
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 285183
-  packageName: 9 Free Backgrounds
-  packageVersion: 1.0.0
-  assetPath: Assets/CatlandsGames/9FreeBackgrounds/BackgroundsPNG/Background1.png
-  uploadId: 664641
