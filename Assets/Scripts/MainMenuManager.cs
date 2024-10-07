@@ -30,8 +30,12 @@ namespace Assets.Scripts
         [SerializeField]
         private GameObject creditsWindow;
 
+        private ISaveSystemService saveSystemService;
+
         void Start()
         {
+            saveSystemService = new JsonSaveSystemService(new PlayerDataService());
+
             newGameButton.onClick.AddListener(NewGameButtonAction);
             loadGameButton.onClick.AddListener(LoadGameButtonAction);
             statsButton.onClick.AddListener(StatsButtonAction);
@@ -41,14 +45,40 @@ namespace Assets.Scripts
             discordButton.onClick.AddListener(DiscordButtonAction);
         }
 
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                SaveGame();
+            }
+        }
+
         private void NewGameButtonAction()
         {
+            PlayerData newGameData = new PlayerData();
+            saveSystemService.SaveGame(newGameData);
+
             SceneManager.LoadScene("Town");
         }
 
         private void LoadGameButtonAction()
         {
-            throw new NotImplementedException();
+            PlayerData loadedData = saveSystemService.LoadGame();
+            if (loadedData != null)
+            {
+                Debug.Log("Save loaded succesfully!");
+            }
+            else
+            {
+                Debug.LogError("Save couldnt be loaded.");
+            }
+        }
+
+        private void SaveGame()
+        {
+            PlayerData currentData = new PlayerData();
+            saveSystemService.SaveGame(currentData);
+            Debug.Log("Game saved.");
         }
 
         private void StatsButtonAction()
@@ -82,7 +112,7 @@ namespace Assets.Scripts
 
         private void DiscordButtonAction()
         {
-
+            Application.OpenURL("https://discord.gg/4qs2F7Uw");
         }
     }
 }
