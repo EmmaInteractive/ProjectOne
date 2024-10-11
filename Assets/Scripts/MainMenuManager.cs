@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections;
-using System.Linq;
-using System.Text;
+﻿using System.Collections;
 using System.Threading.Tasks;
-using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -26,7 +21,7 @@ namespace Assets.Scripts
 
         void Start()
         {
-            saveSystemService = new JsonSaveSystemService(new PlayerDataService());
+            saveSystemService = new JsonSaveSystemService();
 
             newGameButton.onClick.AddListener(NewGameButtonAction);
             loadGameButton.onClick.AddListener(LoadGameButtonAction);
@@ -54,18 +49,15 @@ namespace Assets.Scripts
 
         private void LoadGameButtonAction()
         {
-            
+            // loading screen
             PlayerData loadedData = saveSystemService.LoadGame(1);
 
             if (loadedData != null)
             {
+                SceneManager.LoadScene(loadedData.SceneName);
+                // This doesn't need to be a coroutine
+                StartCoroutine(SetPlayerPosition(loadedData));
                 Debug.Log("Save from Slot 1 loaded successfully!");
-
-                
-                SceneManager.LoadScene(loadedData.sceneName);
-
-                
-                StartCoroutine(SetPlayerPositionAfterSceneLoad(loadedData));
             }
             else
             {
@@ -80,19 +72,14 @@ namespace Assets.Scripts
             Debug.Log("Game saved.");
         }
 
-
-        private IEnumerator SetPlayerPositionAfterSceneLoad(PlayerData loadedData)
+        private IEnumerator SetPlayerPosition(PlayerData loadedData)
         {
-           
             yield return new WaitForSeconds(0.1f);
 
-           
             GameObject player = GameObject.FindWithTag("Player");
-
             if (player != null)
             {
-                
-                player.transform.position = new Vector3(loadedData.playerPositionX, loadedData.playerPositionY, loadedData.playerPositionZ);
+                player.transform.position = loadedData.Position;
                 Debug.Log("Player position restored.");
             }
             else

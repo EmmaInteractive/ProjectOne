@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using Assets.Scripts.Services;
 
 namespace Assets.Scripts.GameObjects

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SaveSystemManager : MonoBehaviour
 {
@@ -7,18 +8,11 @@ public class SaveSystemManager : MonoBehaviour
 
     private ISaveSystemService saveSystemService;
 
-    private void Awake()
+    private void Start()
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-            saveSystemService = new JsonSaveSystemService(new PlayerDataService());
-        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+        saveSystemService = new JsonSaveSystemService();
     }
 
     private void Update()
@@ -30,7 +24,6 @@ public class SaveSystemManager : MonoBehaviour
         }
     }
 
-   
     public void SaveGame(PlayerData data, int slot)
     {
         saveSystemService.SaveGame(data, slot);

@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class JsonSaveSystemService : ISaveSystemService
 {
-    private readonly IPlayerDataService _playerDataService;
     private string savePath;
-
-    public JsonSaveSystemService(IPlayerDataService playerDataService)
-    {
-        _playerDataService = playerDataService;
-    }
 
     public void SaveGame(PlayerData data, int slot)
     {
@@ -27,7 +21,6 @@ public class JsonSaveSystemService : ISaveSystemService
         {
             string json = File.ReadAllText(savePath);
             PlayerData data = JsonUtility.FromJson<PlayerData>(json);
-            _playerDataService.SetPlayerData(data);
             Debug.Log("Game loaded from slot: " + slot);
             return data;
         }
