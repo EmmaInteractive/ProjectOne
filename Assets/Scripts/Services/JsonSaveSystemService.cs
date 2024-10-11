@@ -1,40 +1,62 @@
 using System.IO;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class JsonSaveSystemService : ISaveSystemService
 {
-    private string savePath;
     private readonly IPlayerDataService _playerDataService;
+    private string savePath;
 
     public JsonSaveSystemService(IPlayerDataService playerDataService)
     {
-        savePath = Application.persistentDataPath + "/savefile.json";
         _playerDataService = playerDataService;
     }
 
-    
-    public void SaveGame(PlayerData data)
+    public void SaveGame(PlayerData data, int slot)
     {
-        string json = JsonUtility.ToJson(data); 
-        File.WriteAllText(savePath, json); 
-        Debug.Log("Saved at: " + savePath);
+        savePath = Application.persistentDataPath + "/savefile" + slot + ".json";
+        string json = JsonUtility.ToJson(data);
+        File.WriteAllText(savePath, json);
+        Debug.Log("Game saved at: " + savePath);
     }
 
-    
-    public PlayerData LoadGame()
+    public PlayerData LoadGame(int slot)
     {
+        savePath = Application.persistentDataPath + "/savefile" + slot + ".json";
         if (File.Exists(savePath))
         {
-            string json = File.ReadAllText(savePath); 
-            PlayerData data = JsonUtility.FromJson<PlayerData>(json); 
-            _playerDataService.SetPlayerData(data); 
-            Debug.Log("Save loaded");
-            return data; 
+            string json = File.ReadAllText(savePath);
+            PlayerData data = JsonUtility.FromJson<PlayerData>(json);
+            _playerDataService.SetPlayerData(data);
+            Debug.Log("Game loaded from slot: " + slot);
+            return data;
         }
         else
         {
-            Debug.LogError("Save not found");
-            return null; 
+            Debug.LogError("Save file not found in slot: " + slot);
+            return null;
         }
+    }
+
+    public List<int> GetAvailableSaveSlots()
+    {
+        List<int> availableSlots = new List<int>();
+
+        for (int i = 1; i <= 3; i++)
+        {
+            string path = Application.persistentDataPath + "/savefile" + i + ".json";
+            if (File.Exists(path))
+            {
+                availableSlots.Add(i);
+            }
+        }
+
+        return availableSlots;
+    }
+ 
+    public bool IsSaveSlotAvailable(int slot)
+    {
+        string path = Application.persistentDataPath + "/savefile" + slot + ".json";
+        return File.Exists(path);
     }
 }

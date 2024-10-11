@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,23 +13,14 @@ namespace Assets.Scripts
 {
     internal class MainMenuManager : MonoBehaviour
     {
-        [SerializeField]
-        private Button newGameButton;
-        [SerializeField]
-        private Button loadGameButton;
-        [SerializeField]
-        private Button statsButton;
-        [SerializeField]
-        private Button optionsButton;
-        [SerializeField]
-        private Button creditsButton;
-        [SerializeField]
-        private Button exitButton;
-        [SerializeField]
-        private Button discordButton;
-
-        [SerializeField]
-        private GameObject creditsWindow;
+        [SerializeField] private Button newGameButton;
+        [SerializeField] private Button loadGameButton;
+        [SerializeField] private Button statsButton;
+        [SerializeField] private Button optionsButton;
+        [SerializeField] private Button creditsButton;
+        [SerializeField] private Button exitButton;
+        [SerializeField] private Button discordButton;
+        [SerializeField] private GameObject creditsWindow;
 
         private ISaveSystemService saveSystemService;
 
@@ -56,39 +48,67 @@ namespace Assets.Scripts
         private void NewGameButtonAction()
         {
             PlayerData newGameData = new PlayerData();
-            saveSystemService.SaveGame(newGameData);
-
+            saveSystemService.SaveGame(newGameData, 1);
             SceneManager.LoadScene("Town");
         }
 
         private void LoadGameButtonAction()
         {
-            PlayerData loadedData = saveSystemService.LoadGame();
+            
+            PlayerData loadedData = saveSystemService.LoadGame(1);
+
             if (loadedData != null)
             {
-                Debug.Log("Save loaded succesfully!");
+                Debug.Log("Save from Slot 1 loaded successfully!");
+
+                
+                SceneManager.LoadScene(loadedData.sceneName);
+
+                
+                StartCoroutine(SetPlayerPositionAfterSceneLoad(loadedData));
             }
             else
             {
-                Debug.LogError("Save couldnt be loaded.");
+                Debug.LogError("Save from Slot 1 couldn't be loaded.");
             }
         }
 
         private void SaveGame()
         {
             PlayerData currentData = new PlayerData();
-            saveSystemService.SaveGame(currentData);
+            saveSystemService.SaveGame(currentData, 1);
             Debug.Log("Game saved.");
+        }
+
+
+        private IEnumerator SetPlayerPositionAfterSceneLoad(PlayerData loadedData)
+        {
+           
+            yield return new WaitForSeconds(0.1f);
+
+           
+            GameObject player = GameObject.FindWithTag("Player");
+
+            if (player != null)
+            {
+                
+                player.transform.position = new Vector3(loadedData.playerPositionX, loadedData.playerPositionY, loadedData.playerPositionZ);
+                Debug.Log("Player position restored.");
+            }
+            else
+            {
+                Debug.LogError("Player not found in the scene.");
+            }
         }
 
         private void StatsButtonAction()
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
 
         private void OptionsButtonAction()
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
 
         private void CreditsButtonAction()
@@ -97,6 +117,7 @@ namespace Assets.Scripts
             //var text = creditsWindow.transform.Find("Text").gameObject;
             if (creditsWindow.activeInHierarchy)
                 return;
+
             var closeButton = creditsWindow.transform.Find("CloseButton").gameObject;
             closeButton.GetComponent<Button>().onClick.AddListener(() =>
             {

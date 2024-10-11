@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SaveSystemManager : MonoBehaviour
@@ -10,24 +11,56 @@ public class SaveSystemManager : MonoBehaviour
     {
         if (Instance != null && Instance != this)
         {
-            Destroy(gameObject); 
+            Destroy(gameObject);
         }
         else
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); 
+            DontDestroyOnLoad(gameObject);
             saveSystemService = new JsonSaveSystemService(new PlayerDataService());
         }
     }
 
-    public void SaveGame(PlayerData data)
+    private void Update()
     {
-        saveSystemService.SaveGame(data);
-        Debug.Log("Game saved.");
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            PlayerData currentData = new PlayerData();
+            SaveGame(currentData, 1);  
+        }
     }
 
-    public PlayerData LoadGame()
+   
+    public void SaveGame(PlayerData data, int slot)
     {
-        return saveSystemService.LoadGame();
+        saveSystemService.SaveGame(data, slot);
+        Debug.Log("Game saved in slot: " + slot);
+    }
+
+    
+    public PlayerData LoadGame(int slot)
+    {
+        PlayerData loadedData = saveSystemService.LoadGame(slot);
+        if (loadedData != null)
+        {
+            Debug.Log("Game loaded from slot: " + slot);
+        }
+        return loadedData;
+    }
+
+    
+    public List<int> GetAvailableSaveSlots()
+    {
+        List<int> availableSlots = new List<int>();
+
+        for (int i = 1; i <= 3; i++)  
+        {
+            if (saveSystemService.IsSaveSlotAvailable(i))
+            {
+                availableSlots.Add(i);  
+            }
+        }
+
+        return availableSlots;
     }
 }
