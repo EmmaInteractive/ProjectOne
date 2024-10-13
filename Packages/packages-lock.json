@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.convalise.unity-material-symbols": {
+      "version": "https://github.com/convalise/unity-material-symbols.git?path=/src/UnityMaterialSymbols/Assets/MaterialSymbols",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "hash": "2ec4a9eea55d11e6bce5629f6c8131fc2f2f16f9"
+    },
     "com.unity.2d.animation": {
       "version": "10.0.2",
       "depth": 1,
