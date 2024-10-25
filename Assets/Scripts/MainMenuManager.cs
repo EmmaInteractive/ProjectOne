@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assets.Scripts.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -43,7 +44,7 @@ namespace Assets.Scripts
 
         private void NewGameButtonAction()
         {
-            SceneManager.LoadScene("Town");
+            ClassSelectorService.Instance.ShowUI();
         }
 
         private void LoadGameButtonAction()

@@ -9,7 +9,7 @@ using static Assets.Scripts.Services.ClassSelectorService;
 
 namespace Assets.Scripts.GameObjects
 {
-    internal class ShadowDancerClass : MonoBehaviour, IGameClass
+    internal class ShadowDancerClass : ScriptableObject, IGameClass
     {
         /// <summary>
         /// Name has to equal the animation name.
@@ -21,5 +21,6 @@ namespace Assets.Scripts.GameObjects
         public int STR { get; set; } = 5;
         public int INT { get; set; } = 2;
         public int DEX { get; set; } = 3;
+        public string PreviewSpriteResource { get; set; } = "Sprites/NPCS/ShadowDancer";
     }
 }

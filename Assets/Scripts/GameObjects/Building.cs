@@ -58,12 +58,12 @@ namespace Assets.Scripts.GameObjects
 
         private void EnterDungeon()
         {
-            teleportationService.LoadSceneAndTeleport("DungeonScene", "DungeonInterior");
+            teleportationService.LoadSceneAndTeleportPlayer("DungeonScene", GameObject.Find("DungeonInterior").transform.position);
         }
 
         private void EnterGuildHall()
         {
-            teleportationService.LoadSceneAndTeleport("GuildHallScene", "GuildHallInterior");
+            teleportationService.LoadSceneAndTeleportPlayer("GuildHallScene", GameObject.Find("GuildHallInterior").transform.position);
         }
 
         public bool CanInteract()

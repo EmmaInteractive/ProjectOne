@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,31 +22,16 @@ namespace Assets.Scripts.Services
                 player.transform.position = destination;
                 player.transform.rotation = Quaternion.identity;
             }
+            SceneManager.sceneLoaded -= (scene, mode) => OnSceneLoaded(destination);
         }
 
-        public void LoadSceneAndTeleport(string sceneName, string targetObjectName)
+        public void LoadSceneAndTeleportPlayer(string sceneName, Vector3 targetPosition)
         {
-            SceneManager.sceneLoaded += (scene, mode) => OnSceneLoaded(scene, targetObjectName);
-            SceneManager.LoadScene(sceneName, LoadSceneMode.Single); 
+            SceneManager.sceneLoaded += (scene, mode) => OnSceneLoaded(targetPosition);
+            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         }
 
-        private void OnSceneLoaded(Scene scene, string targetObjectName)
-        {
-            GameObject player = GameObject.FindWithTag("Player");
-            GameObject targetObject = GameObject.Find(targetObjectName);
-
-            if (player != null && targetObject != null)
-            {
-                Vector3 targetPosition = targetObject.transform.position;
-                player.transform.position = targetPosition;
-                player.transform.rotation = Quaternion.identity;
-            }
-            else
-            {
-                Debug.LogError("Player or targetObject not found in the new scene.");
-            }
-
-            SceneManager.sceneLoaded -= (scene, mode) => OnSceneLoaded(scene, targetObjectName);
-        }
+        public void OnSceneLoaded(Vector3 targetPosition)
+            => TeleportPlayer(GameObject.FindWithTag("Player"), targetPosition);
     }
 }
