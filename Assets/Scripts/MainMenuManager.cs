@@ -77,7 +77,7 @@ namespace Assets.Scripts
 
         private void DiscordButtonAction()
         {
-
+           Application.OpenURL("https://discord.gg/4qs2F7Uw");
         }
     }
 }
