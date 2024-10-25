@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using TMPro;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -103,17 +102,21 @@ namespace Assets.Scripts.Services
 
         private void UpdateUI()
         {
-            var strText = GameObject.Find("StrValue");
-            var intText = GameObject.Find("IntValue");
-            var decText = GameObject.Find("DexValue");
-            var classInfoText = GameObject.Find("ClassInfoText");
-            var classNameText = GameObject.Find("PreviewClassName");
-
+            var statsPanel = _os.FindObjectByName("StatsPanel");
+            var strText = _os.FindChildByName(statsPanel.gameObject, "StrValue");
+            var intText = _os.FindChildByName(statsPanel.gameObject, "IntValue");
+            var decText = _os.FindChildByName(statsPanel.gameObject, "DexValue");
             strText.GetComponent<TextMeshProUGUI>().text = SelectedClass.STR.ToString();
             intText.GetComponent<TextMeshProUGUI>().text = SelectedClass.INT.ToString();
             decText.GetComponent<TextMeshProUGUI>().text = SelectedClass.DEX.ToString();
+
+            var classInfoPanel = _os.FindObjectByName("ClassInfoPanel");
+            var classInfoText = _os.FindChildByName(classInfoPanel.gameObject, "ClassInfoText");
             classInfoText.GetComponent<TextMeshProUGUI>().text = SelectedClass.Description;
-            classNameText.GetComponent<TextMeshProUGUI>().text = SelectedClass.Name;
+
+            var previewPanel = _os.FindObjectByName("PreviewPanel");
+            var previewClassName = _os.FindChildByName(previewPanel.gameObject, "PreviewClassName");
+            previewClassName.GetComponent<TextMeshProUGUI>().text = SelectedClass.Name;
         }
 
         private void GetGameClasses()
@@ -146,7 +149,6 @@ namespace Assets.Scripts.Services
                     classPanel = _os.FindChildByName(ClassSelectorUIPanel.gameObject, "SupportClassPanel");
                     break;
             }
-            Debug.Log(classPanel);
             var classesPanel = _os.FindChildByName(classPanel, "Classes");
             
             for(int i = 0; i < classesPanel.transform.childCount; i++)
@@ -166,20 +168,38 @@ namespace Assets.Scripts.Services
                 var image = btn.AddComponent<Image>();
                 image.sprite = UnityEditor.AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/UISprite.psd");
                 image.type = Image.Type.Sliced;
+                Color color = Color.white;
+                switch (gameClass.ClassType)
+                {
+                    case ClassType.Damage:
+                        ColorUtility.TryParseHtmlString("#8C0E0EEE", out color);
+                        break;
+                    case ClassType.Tank:
+                        ColorUtility.TryParseHtmlString("#21328EEE", out color);
+                        break;
+                    case ClassType.Support:
+                        ColorUtility.TryParseHtmlString("#216A25EE", out color);
+                        break;
+                }
+                image.color = color;
 
-                btn.AddComponent<Button>();
+                var button = btn.AddComponent<Button>();
+                button.onClick.AddListener(() => 
+                {
+                    SelectClass(gameClass.GameClass);
+                });
+
                 var previewImageObject = new GameObject("PreviewImage");
                 var previewImage = previewImageObject.AddComponent<Image>();
 
                 foreach(var resource in Resources.LoadAll<Sprite>(gameClass.PreviewSpriteResource))
                 {
-                    if (resource.name.Equals("ShadowDancer_20"))
+                    if (resource.name.Equals($"{gameClass.Name}_{gameClass.PreviewSpriteResourceIndex}"))
                     {
                         previewImage.sprite = (Sprite)resource;
                         break;
                     }
                 }
-                Debug.Log(gameClass.PreviewSpriteResource);
                 
                 previewImage.transform.SetParent(btn.transform);
                 var previewImageRect = previewImageObject.GetComponent<RectTransform>();
@@ -188,7 +208,7 @@ namespace Assets.Scripts.Services
                 previewImageRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 24);
                 previewImageRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 35);
 
-                //Button btn = new Button(h);
+                panel.name = $"{gameClass.Name}Panel";
                 break;
             }
         }

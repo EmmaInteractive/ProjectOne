@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-using static Assets.Scripts.Services.ClassSelectorService;
+﻿using static Assets.Scripts.Services.ClassSelectorService;
 
 namespace Assets.Scripts.Interfaces
 {
@@ -20,5 +19,6 @@ namespace Assets.Scripts.Interfaces
         public int INT { get; set; }
         public int DEX { get; set; }
         public string PreviewSpriteResource { get; set; }
+        public string PreviewSpriteResourceIndex { get; set; }
     }
 }

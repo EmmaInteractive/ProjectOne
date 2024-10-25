@@ -50,6 +50,13 @@ namespace Assets.Scripts.Services
                 var child = parent.transform.GetChild(i);
                 if (child.name.Equals(name))
                     return child.gameObject;
+
+                if (child.transform.childCount > 0) 
+                {
+                    var innerChild = FindChildByName(child.gameObject, name);
+                    if (innerChild is not null)
+                        return innerChild;
+                }
             }
             return null;
         }
