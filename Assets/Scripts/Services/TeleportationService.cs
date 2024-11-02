@@ -18,7 +18,7 @@ namespace Assets.Scripts.Services
             {
                 destination.z += 0.1f;
 
-                player.transform.position = destination;
+                player.transform.localPosition = destination;
                 player.transform.rotation = Quaternion.identity;
             }
             SceneManager.sceneLoaded -= (scene, mode) => OnSceneLoaded(destination);

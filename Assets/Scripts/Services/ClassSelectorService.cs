@@ -5,7 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Assets.Scripts.Services
@@ -62,9 +64,8 @@ namespace Assets.Scripts.Services
             IsActive = true;
             if (_gameClasses.Count == 0)
             {
-                var buttonBar = ClassSelectorUIPanel.transform.Find("ButtonBar");
-                var cancelButton = buttonBar.transform.Find("CancelButton");
-                var continueButton = buttonBar.transform.Find("ContinueButton");
+                var cancelButton = _os.FindChildByName(ClassSelectorUIPanel.gameObject, "CancelButton");
+                var continueButton = _os.FindChildByName(ClassSelectorUIPanel.gameObject, "ContinueButton");
 
                 if (cancelButton is null)
                     throw new NullReferenceException("cancelButton not found");
@@ -81,8 +82,20 @@ namespace Assets.Scripts.Services
 
         private void ContinueButtonAction()
         {
-            TeleportationService.Instance.LoadSceneAndTeleportPlayer("Town", Vector3.zero);
+            _os.OnObjectsLoaded += _os_OnObjectsLoaded;
+
+            TeleportationService.Instance.LoadSceneAndTeleportPlayer("Town", new Vector3(4, -4, 0));
+            
             IsActive = false;
+        }
+
+        private void _os_OnObjectsLoaded(object sender, EventArgs e)
+        {
+            var player = _os.FindObjectByName("Player");
+            if (player is null)
+                Debug.Log("Player is null");
+
+            player.GetComponent<Animator>().runtimeAnimatorController = (RuntimeAnimatorController)Resources.Load($"Animations/{SelectedClass.Name}/{SelectedClass.Name}.controller", typeof(RuntimeAnimatorController));
         }
 
         private void CancelButtonAction()
@@ -172,13 +185,13 @@ namespace Assets.Scripts.Services
                 switch (gameClass.ClassType)
                 {
                     case ClassType.Damage:
-                        ColorUtility.TryParseHtmlString("#8C0E0EEE", out color);
+                        UnityEngine.ColorUtility.TryParseHtmlString("#8C0E0EEE", out color);
                         break;
                     case ClassType.Tank:
-                        ColorUtility.TryParseHtmlString("#21328EEE", out color);
+                        UnityEngine.ColorUtility.TryParseHtmlString("#21328EEE", out color);
                         break;
                     case ClassType.Support:
-                        ColorUtility.TryParseHtmlString("#216A25EE", out color);
+                        UnityEngine.ColorUtility.TryParseHtmlString("#216A25EE", out color);
                         break;
                 }
                 image.color = color;

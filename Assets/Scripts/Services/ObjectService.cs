@@ -1,8 +1,10 @@
 ﻿using Assets.Scripts.GameObjects;
 using Assets.Scripts.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts.Services
@@ -12,6 +14,8 @@ namespace Assets.Scripts.Services
         private readonly List<BaseObject> gameObjects;
 
         public static ObjectService Instance { get; private set; }
+
+        public event EventHandler OnObjectsLoaded;
 
         public ObjectService()
         {
@@ -35,7 +39,8 @@ namespace Assets.Scripts.Services
             Debug.Log("Loading all gameobjects");
             gameObjects.Clear(); 
             var allObjects = GameObject.FindObjectsByType<BaseObject>(FindObjectsInactive.Include, FindObjectsSortMode.InstanceID);
-            gameObjects.AddRange(allObjects); 
+            gameObjects.AddRange(allObjects);
+            OnObjectsLoaded?.Invoke(this, new EventArgs());
         }
 
         /// <summary>
