@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TMPro;
+﻿using Assets.Scripts.Services;
+using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Assets.Scripts
@@ -43,7 +38,7 @@ namespace Assets.Scripts
 
         private void NewGameButtonAction()
         {
-            SceneManager.LoadScene("Town");
+            ClassSelectorService.Instance.ShowUI();
         }
 
         private void LoadGameButtonAction()

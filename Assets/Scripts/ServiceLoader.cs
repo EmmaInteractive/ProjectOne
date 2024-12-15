@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
@@ -16,9 +17,16 @@ public class ServiceLoader : MonoBehaviour
             .Select(t => t)
             .ToList();
 
+        List<IBaseService> services = new List<IBaseService>();
         foreach(var item in list)
         {
-            Activator.CreateInstance(item);
+            services.Add(Activator.CreateInstance(item) as IBaseService);
+        }
+        // We have to init the services after all of them are created as
+        // some depend on the ObjectService on initialization.
+        foreach(var item in services)
+        {
+            item.Init();
         }
     }
 }
